@@ -3,7 +3,7 @@ using Telegram.Bot;
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 
-string botToken = "5641237243:AAH_UA-o4tC_hGqVlDKMbPtYNHvVpP6tCVc";
+string botToken = "";
 var bot = new TelegramBotClient(botToken);
 var receiverOptions = new ReceiverOptions
 {
